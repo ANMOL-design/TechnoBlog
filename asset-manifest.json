@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/TechnoBlog/static/css/main.59d946ed.chunk.css",
-    "main.js": "/TechnoBlog/static/js/main.b9f6faeb.chunk.js",
-    "main.js.map": "/TechnoBlog/static/js/main.b9f6faeb.chunk.js.map",
+    "main.css": "/TechnoBlog/static/css/main.ad1bd130.chunk.css",
+    "main.js": "/TechnoBlog/static/js/main.abdacdc4.chunk.js",
+    "main.js.map": "/TechnoBlog/static/js/main.abdacdc4.chunk.js.map",
     "runtime-main.js": "/TechnoBlog/static/js/runtime-main.a6ee7bf9.js",
     "runtime-main.js.map": "/TechnoBlog/static/js/runtime-main.a6ee7bf9.js.map",
     "static/js/2.69122954.chunk.js": "/TechnoBlog/static/js/2.69122954.chunk.js",
     "static/js/2.69122954.chunk.js.map": "/TechnoBlog/static/js/2.69122954.chunk.js.map",
     "index.html": "/TechnoBlog/index.html",
-    "static/css/main.59d946ed.chunk.css.map": "/TechnoBlog/static/css/main.59d946ed.chunk.css.map",
+    "static/css/main.ad1bd130.chunk.css.map": "/TechnoBlog/static/css/main.ad1bd130.chunk.css.map",
     "static/js/2.69122954.chunk.js.LICENSE.txt": "/TechnoBlog/static/js/2.69122954.chunk.js.LICENSE.txt",
     "static/media/Banner.182c350a.png": "/TechnoBlog/static/media/Banner.182c350a.png",
     "static/media/Code.95d62df1.png": "/TechnoBlog/static/media/Code.95d62df1.png",
@@ -29,7 +29,7 @@
   "entrypoints": [
     "static/js/runtime-main.a6ee7bf9.js",
     "static/js/2.69122954.chunk.js",
-    "static/css/main.59d946ed.chunk.css",
-    "static/js/main.b9f6faeb.chunk.js"
+    "static/css/main.ad1bd130.chunk.css",
+    "static/js/main.abdacdc4.chunk.js"
   ]
 }
