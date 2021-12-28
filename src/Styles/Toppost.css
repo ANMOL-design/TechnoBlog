@@ -1,0 +1,189 @@
+.TopPostion {
+    width: 35%;
+    /* border: 1px solid green; */
+    position: absolute;
+    top: 1000;
+    right: 0;
+}
+
+.topheading {
+    border-bottom: 2px solid #F08080;
+    padding: 3px;
+}
+
+.headmar {
+    margin: 18px 5px;
+}
+
+.TopImage {
+    width: 95%;
+    border-radius: 5px;
+    margin: 10px 0px;
+}
+
+.headP {
+    padding: 5px;
+    font-size: 1rem;
+}
+
+.headpost {
+    font-size: 0.9rem;
+    color: #000;
+    margin: 10px;
+}
+
+.toptravel {
+    font-size: 0.6rem;
+    color: #ddd;
+    margin: 10px;
+}
+
+.NewTop {
+    display: flex;
+    border-top: 2px solid #ddd;
+    padding: 12px 0px;
+    margin: 8px 0px;
+    border-radius: 5px;
+}
+
+.TopImagebtm {
+    width: 40%;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.Link {
+    text-decoration: none;
+}
+
+
+/* // side Banner  */
+
+.BannerSide1Top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* border: 1px solid green; */
+    width: 61vw;
+    margin: 20px 0px;
+    position: relative;
+}
+
+.TopM {
+    margin-top: 35px;
+}
+
+.BannerImgTop {
+    width: 100%;
+    height: 75vh;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #707070;
+}
+
+.BannerDesignABSTop {
+    position: absolute;
+    left: 150px;
+    bottom: 130px;
+    color: #fff;
+}
+
+.HeadingABSTop {
+    font-size: 2rem;
+    margin: 20px;
+}
+
+.ParaAB {
+    font-size: 1rem;
+    color: #fff;
+    margin: 10px 100px;
+}
+
+@media (max-width: 1100px) {
+    .BannerDesignABSTop {
+        left: 120px;
+    }
+    .HeadingABSTop {
+        margin: 10px;
+    }
+    .ParaAB {
+        margin: 10px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .BannerDesignABSTop {
+        left: 100px;
+    }
+    .HeadingABSTop {
+        margin: 8px;
+    }
+    .ParaAB {
+        margin: 10px;
+    }
+}
+
+@media (max-width: 950px) {
+    .BannerDesignABSTop {
+        left: 80px;
+    }
+    .HeadingABSTop {
+        margin: 2px;
+    }
+    .ParaAB {
+        font-size: 1rem;
+        color: #fff;
+        margin: 8px;
+    }
+}
+
+@media (max-width: 900px) {
+    .TopPostion {
+        width: 100%;
+        position: relative;
+    }
+    .headmar {
+        margin: 25px 12px;
+    }
+    .TopImage {
+        width: 100%;
+        height: 75vh;
+        border-radius: 10px;
+    }
+    .headP {
+        padding: 5px;
+        font-size: 1.5rem;
+    }
+    .toptravel {
+        font-size: 0.7rem;
+    }
+    .headpost {
+        font-size: 1.3rem;
+    }
+    .TopImagebtm {
+        width: 20%;
+    }
+    .ImageContainer {
+        display: none;
+    }
+}
+
+@media (max-width: 650px) {
+    .TopImage {
+        width: 100%;
+        height: 55vh;
+    }
+    .headP {
+        padding: 5px;
+        font-size: 1rem;
+    }
+    .toptravel {
+        font-size: 0.5rem;
+    }
+    .headpost {
+        font-size: 0.9rem;
+    }
+    .TopImagebtm {
+        width: 18%;
+    }
+}

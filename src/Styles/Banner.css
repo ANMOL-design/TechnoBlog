@@ -1,0 +1,96 @@
+.BannerDesign {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 5px;
+    /* border: 1px solid red; */
+    width: 100%;
+    max-height: 80vh;
+}
+
+.BannerSide1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* border: 1px solid green; */
+    width: 90vw;
+    margin: 3px;
+    position: relative;
+}
+
+.BannerDesignABS {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    color: #fff;
+}
+
+.BannerImg {
+    width: 100%;
+    height: 65vh;
+    border-radius: 7px;
+    box-shadow: 3px 3px 5px #707070;
+}
+
+.BannerSide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    /* border: 1px solid green; */
+    width: 30vw;
+    margin: 3px;
+    position: relative;
+}
+
+.BannerImgside {
+    width: 100%;
+    height: 32vh;
+    border-radius: 7px;
+    box-shadow: 3px 3px 5px #707070;
+}
+
+.BannerDesignABS2 {
+    position: absolute;
+    left: 7px;
+    bottom: 8px;
+    color: #fff;
+}
+
+.HeadingABS {
+    font-size: 1.3rem;
+    margin-bottom: 0;
+}
+
+.ParaABS {
+    font-size: 0.6rem;
+    color: #ddd;
+    opacity: 0.57;
+}
+
+@media (max-width: 1020px) {
+    .BannerSide1 {
+        width: 100%;
+        margin: 3px;
+    }
+    .BannerImg {
+        width: 100%;
+        max-height: 80vh;
+    }
+    .BannerSide {
+        display: none;
+    }
+}
+
+@media (max-width: 620px) {
+    .BannerImg {
+        height: 55vh;
+    }
+}
+
+@media (max-width: 420px) {
+    .BannerImg {
+        height: 45vh;
+    }
+}

@@ -1,0 +1,77 @@
+h4 {
+    margin: 30px 8px;
+}
+
+.postbase {
+    border-bottom: 2px solid #F08080;
+}
+
+.STOuter {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 30px 0px;
+    /* border: 1px solid red; */
+}
+
+.STInner {
+    width: 30%;
+    border-right: 1px solid #ddd;
+}
+
+.STheading {
+    font-size: 1.5rem;
+    color: #000;
+    margin: 18px 8px;
+}
+
+.STpara {
+    color: #908D8D;
+    font-size: 10px;
+    margin: 20px 10px;
+}
+
+.STtravel {
+    font-size: 0.7rem;
+    color: #ddd;
+    margin: 32px 0px 20px 12px;
+}
+
+.STlink {
+    text-decoration: none;
+}
+
+@media (max-width: 1020px) {
+    .STInner {
+        width: 40%;
+    }
+}
+
+@media (max-width: 850px) {
+    .STInner {
+        width: 55%;
+        margin: 15px;
+        border-right: 0px;
+        border-top: 1px solid #ddd;
+    }
+}
+
+@media (max-width: 620px) {
+    .STInner {
+        width: 70%;
+    }
+}
+
+@media (max-width: 560px) {
+    .STInner {
+        width: 80%;
+    }
+}
+
+@media (max-width: 400px) {
+    .STInner {
+        width: 97%;
+    }
+}

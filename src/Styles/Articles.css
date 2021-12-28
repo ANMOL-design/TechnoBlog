@@ -1,0 +1,105 @@
+.OuterA {
+    /* border: 1px solid red; */
+    border-top: 2px solid #ddd;
+    width: 75%;
+    padding: 15px;
+    display: flex;
+}
+
+.AImage {
+    width: 30%;
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow: 2px 2px 3px #707070;
+}
+
+.Aheading {
+    font-size: 1.5rem;
+    margin: 0px 12px;
+    color: #000;
+}
+
+.Apara {
+    color: #908D8D;
+    font-size: 10px;
+    margin: 10px 15px;
+}
+
+.Posttravel {
+    font-size: 0.6rem;
+    color: #ddd;
+    margin: 30px 0px 20px 12px;
+}
+
+.Link {
+    text-decoration: none;
+}
+
+.Adv {
+    position: absolute;
+    width: 23%;
+    height: 100vh;
+    border: 1px solid #707070;
+    top: 1180px;
+    right: 0;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.AdvInner {
+    margin-top: 50vh;
+}
+
+.loader {
+    font-size: 0.9rem;
+    color: #908D8D;
+    margin: 5px 8px;
+}
+
+.loadMore {
+    margin: 10px 50px;
+    cursor: pointer;
+}
+
+.LoaderHide {
+    display: none;
+}
+
+.ImgRot {
+    transform: rotate(180deg);
+}
+
+@media (max-width: 1175px) {
+    .Adv {
+        display: none;
+    }
+    .OuterA {
+        width: 90%;
+        margin: auto
+    }
+    .AImage {
+        width: 26%;
+    }
+    .Aheading {
+        font-size: 1.2rem;
+    }
+    .Apara {
+        font-size: 9px;
+    }
+}
+
+@media (max-width: 650px) {
+    .OuterA {
+        width: 100%;
+    }
+    .AImage {
+        width: 25%;
+        height: 80px
+    }
+    .Aheading {
+        font-size: 1rem;
+    }
+    .Apara {
+        font-size: 8px;
+    }
+}

@@ -1,0 +1,39 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 15px 0px 10px;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+/* Scrollbar Modify  */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+/* Track */
+
+ ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #ddd;
+}
+
+
+/* Handle */
+
+ ::-webkit-scrollbar-thumb {
+    background: rgba(128, 128, 128, 0.7);
+    border-radius: 5px;
+}
+
+hr {
+    color: #000;
+    background-color: #000;
+    height: 2;
+    margin: 5px;
+}

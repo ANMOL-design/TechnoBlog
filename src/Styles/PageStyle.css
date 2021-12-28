@@ -1,0 +1,244 @@
+.Bheading {
+    margin: 30px 15px;
+    font-size: 2.2rem;
+    border-bottom: 2px solid #F08080;
+    display: inline-block;
+}
+
+.OuterP {
+    /* border: 1px solid red; */
+    border-bottom: 2px solid #ddd;
+    width: 65%;
+    padding: 15px;
+    display: flex;
+}
+
+.PImage {
+    width: 28%;
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow: 2px 2px 3px #707070;
+}
+
+.Pheading {
+    font-size: 1.2rem;
+    margin: 0px 10px;
+    color: #000;
+}
+
+.Ppara {
+    color: #908D8D;
+    font-size: 10px;
+    margin: 10px 15px;
+}
+
+.PPosttravel {
+    font-size: 0.6rem;
+    color: #ddd;
+    margin: 20px 12px;
+}
+
+.PLink {
+    text-decoration: none;
+}
+
+.AdvP {
+    position: absolute;
+    width: 28%;
+    height: 100vh;
+    border: 1px solid #707070;
+    top: 1150px;
+    right: 0;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.AdvInner {
+    margin-top: 50vh;
+}
+
+.loaderP {
+    font-size: 0.8rem;
+    color: #908D8D;
+    margin: 5px 8px;
+}
+
+.loadMoreP {
+    margin: 10px 50px;
+    cursor: pointer;
+}
+
+.LoaderHide {
+    display: none;
+}
+
+.ImgRotP {
+    transform: rotate(180deg);
+}
+
+@media (max-width: 900px) {
+    .Adv {
+        display: none;
+    }
+    .Bheading {
+        margin: 30px 20vw;
+        font-size: 2rem;
+    }
+    .OuterP {
+        width: 90%;
+        margin: auto
+    }
+    .PImage {
+        width: 25%;
+    }
+    .Pheading {
+        font-size: 1rem;
+    }
+    .Ppara {
+        font-size: 9px;
+    }
+    .AdvP {
+        display: none;
+    }
+}
+
+@media (max-width: 650px) {
+    .Bheading {
+        margin: 30px 10vw;
+        font-size: 1.7rem;
+    }
+    .OuterP {
+        width: 100%;
+    }
+    .PImage {
+        width: 25%;
+        height: 80px
+    }
+    .Pheading {
+        font-size: 0.8rem;
+    }
+    .Ppara {
+        font-size: 8px;
+    }
+}
+
+
+/* For Corner Top Post  */
+
+.PTopPostion {
+    width: 33%;
+    /* border: 1px solid green; */
+    position: absolute;
+    top: 5;
+    right: 0;
+}
+
+.Ptopheading {
+    border-bottom: 2px solid #F08080;
+    padding: 3px;
+}
+
+.Pheadmar {
+    margin: 18px 5px;
+}
+
+.PTopImage {
+    width: 95%;
+    border-radius: 5px;
+    margin: 10px 0px;
+}
+
+.PheadP {
+    padding: 5px;
+    font-size: 1rem;
+}
+
+.Pheadpost {
+    font-size: 0.9rem;
+    color: #000;
+    margin: 10px;
+}
+
+.Ptoptravel {
+    font-size: 0.6rem;
+    color: #ddd;
+    margin: 10px;
+}
+
+.PNewTop {
+    display: flex;
+    border-top: 2px solid #ddd;
+    padding: 12px 0px;
+    margin: 8px 0px;
+    border-radius: 5px;
+}
+
+.PTopImagebtm {
+    width: 40%;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+@media (max-width: 900px) {
+    .PTopPostion {
+        width: 85%;
+        position: relative;
+        margin-left: 60px;
+    }
+    .Pheadmar {
+        margin: 20px 12px;
+    }
+    .PTopImage {
+        width: 100%;
+        height: 58vh;
+        border-radius: 10px;
+    }
+    .PheadP {
+        padding: 5px;
+        font-size: 1.4rem;
+    }
+    .Ptoptravel {
+        font-size: 0.7rem;
+    }
+    .Pheadpost {
+        font-size: 1.2rem;
+    }
+    .PTopImagebtm {
+        width: 20%;
+    }
+}
+
+@media (max-width: 650px) {
+    .PTopPostion {
+        width: 95%;
+        position: relative;
+        margin-left: 25px;
+    }
+    .PTopImage {
+        width: 100%;
+        height: 50vh;
+    }
+    .PheadP {
+        padding: 5px;
+        font-size: 1rem;
+    }
+    .Ptoptravel {
+        font-size: 0.5rem;
+    }
+    .Pheadpost {
+        font-size: 0.9rem;
+    }
+    .PTopImagebtm {
+        width: 18%;
+    }
+}
+
+@media (max-width: 42px) {
+    .PTopPostion {
+        width: 98%;
+        margin-left: 10px;
+    }
+    .PTopImage {
+        height: 40vh;
+    }
+}

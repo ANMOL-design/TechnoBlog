@@ -1,0 +1,73 @@
+.headingThe {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    font-size: 1.6rem;
+}
+
+.headingS {
+    font-size: 4rem;
+    margin-left: 10px;
+}
+
+h1 {
+    margin: 0px;
+}
+
+.HeadingSpacing {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.NavbarCollapse {
+    display: none;
+}
+
+.navbar {
+    margin: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.HeaderLink {
+    text-decoration: none;
+    color: #000;
+    font-size: 1rem;
+}
+
+.NavImg {
+    height: 18px;
+    width: 35px;
+    cursor: pointer;
+}
+
+@media (max-width: 820px) {
+    .headingThe {
+        font-size: 1.4rem;
+    }
+    .headingS {
+        font-size: 3rem;
+        margin-left: 5px;
+    }
+    .NavbarCollapse {
+        display: flex;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+    .navbar {
+        display: block;
+        text-align: center;
+    }
+    .navbarsmall {
+        padding: 5px;
+        margin: 5px 0px;
+        border-bottom: 1px solid #ddd;
+    }
+    .navbarHide {
+        display: none;
+    }
+}
