@@ -33,7 +33,7 @@ function Bollywood(){
         Less.classList.toggle("LoaderHide");
     }
 
-    const Item = location.split("/")[1];
+    const Item = location.split("/")[2];
     // console.log(location, Item);
         return(
             <>
@@ -54,7 +54,7 @@ function Bollywood(){
                         return(
                             <div className={"PNewTop"} key={key}>
                                     <img src={TopImg2} alt="Post" className={"PTopImagebtm"} />
-                                    <Link to="/data" className={"PLink"}>
+                                    <Link to="/TechnoBlog/data" className={"PLink"}>
                                         <h6 className={"Pheadpost"}>{data.heading}</h6>
                                         <p className={"Ptoptravel"}><span style={{color: "#404040"}}>Travel</span>{data.year}</p>
                                     </Link>
@@ -69,7 +69,7 @@ function Bollywood(){
                         <img src={Page} alt="Pages" className={"PImage"} />
 
                         <div>
-                            <Link to="/data" className={"PLink"}>
+                            <Link to="/TechnoBlog/data" className={"PLink"}>
                                 <h3 className={"Pheading"}>{data.heading}</h3>
                                 <p className={"Ppara"}>{data.description}</p>
                             </Link>
@@ -97,7 +97,7 @@ function Bollywood(){
                             <img src={PageI} alt="PagesMore" className={"PImage"} />
 
                             <div>
-                                <Link to="/data" className={"PLink"}>
+                                <Link to="/TechnoBlog/data" className={"PLink"}>
                                     <h3 className={"Pheading"}>{data.heading}</h3>
                                     <p className={"Ppara"}>{data.description}</p>
                                 </Link>

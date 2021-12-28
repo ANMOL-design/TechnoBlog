@@ -15,9 +15,9 @@ class App extends Component {
           {/* Adding the header Component on Top of All Pages we react */}
           <Heading />
           <Switch>
-              <Route path="/data" component={Data} />  
-              <Route path="/:value" component={Bollywood} />          
-              <Route path="/" component={Home} />
+              <Route path="/TechnoBlog/data" component={Data} />  
+              <Route path="/TechnoBlog/:value" component={Bollywood} />          
+              <Route path="/TechnoBlog" component={Home} />
           </Switch>
           <Footer />
       </BrowserRouter>

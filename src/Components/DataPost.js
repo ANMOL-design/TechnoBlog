@@ -19,7 +19,7 @@ class DataPost extends Component{
                                 {postend.map((data,key) =>{
                                 return(
                                     <div className={"DPostInner"}  key={key}>
-                                      <Link to="/" className={"Dpostlink"}>
+                                      <Link to="/TechnoBlog" className={"Dpostlink"}>
                                             <p className={"DPostpara"}>{data.para}</p>
                                             <img src={Post1} alt="PostImage" className={"DPostImg"}/>
                                             <h5 className={"DPostheading"}>{data.heading}</h5>

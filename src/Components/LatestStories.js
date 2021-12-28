@@ -26,7 +26,7 @@ class LatestStories extends Component{
                   })}  
             </div>
 
-            <Link to="/Bollywood" style={{textDecoration: "none"}}>
+            <Link to="/TechnoBlog/Bollywood" style={{textDecoration: "none"}}>
                    <img src={Load} alt="Load" />
                    <span className={"loader"}>Load More</span>
             </Link>

@@ -26,22 +26,22 @@ function Heading(){
           </div>
           <div className={"navbar navbarHide"} id="navbarH">
               <div className={"navbarsmall"}>
-                 <Link to="/" className={"HeaderLink"} onClick={toggleBox}>Home</Link>
+                 <Link to="/TechnoBlog" className={"HeaderLink"} onClick={toggleBox}>Home</Link>
               </div>
               <div className={"navbarsmall"}>
-                 <Link to="/Bollywood" className={"HeaderLink"} onClick={toggleBox}>Bollywood</Link>
+                 <Link to="/TechnoBlog/Bollywood" className={"HeaderLink"} onClick={toggleBox}>Bollywood</Link>
               </div>
               <div className={"navbarsmall"}>
-                 <Link to="/Technology" className={"HeaderLink"} onClick={toggleBox}>Technology</Link>
+                 <Link to="/TechnoBlog/Technology" className={"HeaderLink"} onClick={toggleBox}>Technology</Link>
               </div>
               <div className={"navbarsmall"}>
-                 <Link to="/Hollywood" className={"HeaderLink"} onClick={toggleBox}>Hollywood</Link>
+                 <Link to="/TechnoBlog/Hollywood" className={"HeaderLink"} onClick={toggleBox}>Hollywood</Link>
               </div>
               <div className={"navbarsmall"}>
-                 <Link to="/Fitness" className={"HeaderLink"} onClick={toggleBox}>Fitness</Link>
+                 <Link to="/TechnoBlog/Fitness" className={"HeaderLink"} onClick={toggleBox}>Fitness</Link>
               </div>
               <div >
-                 <Link to="/Food" className={"HeaderLink"} onClick={toggleBox}>Food</Link>
+                 <Link to="/TechnoBlog/Food" className={"HeaderLink"} onClick={toggleBox}>Food</Link>
               </div>
           </div>
           <hr style={{height:"2px"}}/>

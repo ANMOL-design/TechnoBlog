@@ -3,7 +3,7 @@ export const loadData = [{
         "heading": "Joshua Tree Overnight Adventure",
         "description": "Gujarat is vastly underrated and it’s a mystery to us why the region isn’t more well-known as a tourist destination. It has a plethora of temples and palaces",
         "year": "/ August 2021",
-        "link": "/Bollywood",
+        "link": "/TechnoBlog/Bollywood",
 
 
     },
@@ -12,7 +12,7 @@ export const loadData = [{
         "heading": "Pine Trees Morning Adventure",
         "description": "Gujarat is vastly underrated and it’s a mystery to us why the region isn’t more well-known as a tourist destination. It has a plethora of temples and palaces",
         "year": "/ September 2021",
-        "link": "/Food",
+        "link": "/TechnoBlog/Food",
 
     },
     {
@@ -20,7 +20,7 @@ export const loadData = [{
         "heading": "Catch waves with an adventure guide",
         "description": "Gujarat is vastly underrated and it’s a mystery to us why the region isn’t more well-known as a tourist destination. It has a plethora of temples and palaces",
         "year": "/ December 2021",
-        "link": "/Fitness",
+        "link": "/TechnoBlog/Fitness",
 
     }
 ]

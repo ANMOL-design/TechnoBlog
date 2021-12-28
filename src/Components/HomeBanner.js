@@ -8,7 +8,7 @@ import {Link} from 'react-router-dom';
 function HomeBanner(){
     return(
         <>
-        <Link to="/data">
+        <Link to="/TechnoBlog/data">
            <div className={"BannerDesign"}>
                 
                 <div className={"BannerSide1"}>
